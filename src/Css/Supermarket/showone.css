@@ -1,0 +1,37 @@
+.showone {
+    width: 100%;
+    height: 260px;
+    margin-top:35px;
+
+    .showone-center {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .showone-center-right {
+            width: 50%;
+            height: 100%;
+            margin-left: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 25px;
+                
+            }
+        }
+
+        .showone-center-left {
+            width: 50%;
+            height: 100%;
+             img{
+                width: 100%;
+                height: 100%;
+                border-radius: 25px;
+                
+            }
+        }
+    }
+}

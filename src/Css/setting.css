@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../font/fa/iranyekanwebextrabold.woff);
+}
+@font-face {
+  font-family: yekanFa;
+  src: url(../font/fa/Yekan.ttf);
+}
+@font-face {
+  font-family: YekanN;
+  src: url(../font/fa/Yekan.ttf);
+}
+:root {
+  --font-family: yekan;
+  --font-fsi: yekanFa;
+  --font-number: YekanN;
+}
+.wrapper {
+  width: 100%;
+}
+
+.swiper-button-next {
+  width: 35px !important;
+  height: 35px !important;
+  background-color: aliceblue;
+  border: 1px solid antiquewhite;
+  border-radius: 50%;
+}
+.swiper-button-prev {
+  width: 35px !important;
+  height: 35px !important;
+  background-color: aliceblue;
+  border: 1px solid antiquewhite;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: #2b2b2b;
+  font-size: 12px;
+  font-weight: bold;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: #2b2b2b;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.border-left {
+  border-left: 1px solid lightgray;
+}
+.border-bottom {
+  border-bottom: 1px solid lightgray;
+}
+.border-top {
+  border-top: 1px solid lightgray;
+}

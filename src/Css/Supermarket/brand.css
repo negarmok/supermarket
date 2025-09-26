@@ -1,0 +1,65 @@
+.brand{
+    width: 100%;
+    height: 280px;
+    .brand-header{
+         width: 50%;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+         font-family: var(--font-family);
+        font-size: 10px;
+    }
+    }
+    .brand-footer{
+   width: 100%;
+    height: 175px;
+    background-color:#f0f0f1 ;
+    display: block;
+    .brand-footer-top{
+         display: flex;
+    justify-content: center;
+    width: 100%;
+            height: 75px;
+
+    a{
+        height: 100%;
+        width: 260px;
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    img{
+        width: fit-content;
+        height: 20px;
+        object-fit: contain;
+    }
+    }
+}
+
+ .brand-footer-bottom{
+         display: flex;
+    justify-content: center;
+    width: 100%;
+            height: 100px;
+
+    a{
+            height: 100%;
+
+        width: 290px;
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    img{
+        width: fit-content;
+        height: 20px;
+        object-fit: contain;
+    }
+    }
+}
+    }
+
+}

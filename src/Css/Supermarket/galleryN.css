@@ -1,0 +1,28 @@
+.galleryN {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+margin-top: 20px;
+    .galleryN-center {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+column-gap: 15px;
+       a{
+        width: 25%;
+        height: 100%;
+        background-color: blue;
+        border-radius: 20px;
+        img{
+            width:100% ;
+            height:100%;
+                    border-radius: 20px;
+
+        }
+       }
+
+    }
+}

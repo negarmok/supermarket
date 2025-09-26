@@ -1,0 +1,26 @@
+.market {
+  width: 130px;
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  z-index: 4;
+  .market-center {
+    background-color: #029a49;
+
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    p {
+      color: #fff;
+      font-family: var(--font-family);
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+}
